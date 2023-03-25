@@ -10,6 +10,7 @@
 
  > Before you start download the *-arm64.img.xz image for the RPI3b from the raspiberry pi website
 
+<br />
 
  - First, download the image Aarch64 imge from the Raspberry website, or any other desired architecture of any kind.
  
