@@ -61,7 +61,7 @@
 
     <br />
 
-**Connect via ssh from host machine with command:**
+- **Connect via ssh from host machine with command:**
  
 `ssh -p 2022 user@localhost`
 
