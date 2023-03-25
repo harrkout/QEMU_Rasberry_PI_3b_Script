@@ -63,7 +63,7 @@
 
 - **Connect via ssh from host machine with command:**
  
-`ssh -p 2022 user@localhost`
+   `ssh -p 2022 user@localhost`
 
 <br />
 
