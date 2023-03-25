@@ -3,9 +3,9 @@
 
 <br />
 
-
-| Instructions |
---------------
+|---|
+|Instructions|
+|---|
 
 <br />
 
@@ -31,6 +31,7 @@
      `fdisk -l *.img `
      
      `mkdir <directory-name>`
+
      `sudo mount -v -o offset=$((sectors_No*Start_Offset)) *.img <directory-name>`
 
 <br />
@@ -41,7 +42,9 @@
  - To enable ssh, inside the directory of the image/kernel run the command:
      
      `sudo touch ssh`
+
      `cd ..`
+
      `sudo umount <directory-name>`
 
 <br />
@@ -49,6 +52,7 @@
  - Resize the image the raw image to the desired file-size
 
    `qemu-img resize -f raw *.img *G`
+
    > *G stands for desired image storage. Change * with desired number, e.g. 8G)
 
     <br />
